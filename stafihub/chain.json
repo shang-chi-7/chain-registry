@@ -96,6 +96,13 @@
     ]
   },
   "peers": {
+    "seeds": [
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
+      }
+    ],
     "persistent_peers": [
       {
         "id": "bed296dfadd972ed07cab82c87a0ee5c182dea43",
@@ -132,10 +139,6 @@
       {
         "address": "https://rpc.stafihub.nodestake.top:443",
         "provider": "NodeStake"
-      },
-      {
-        "address": "https://stafihub.nodejumper.io",
-        "provider": "NODEJUMPER"
       }
     ],
     "rest": [
@@ -150,10 +153,6 @@
       {
         "address": "https://api.stafihub.nodestake.top",
         "provider": "NodeStake"
-      },
-      {
-        "address": "https://stafihub.nodejumper.io:1317",
-        "provider": "NODEJUMPER"
       }
     ],
     "grpc": [
@@ -183,6 +182,12 @@
       "account_page": "https://www.mintscan.io/stafi/accounts/${accountAddress}"
     },
     {
+      "kind": "ezstaking",
+      "url": "https://ezstaking.app/stafihub",
+      "tx_page": "https://ezstaking.app/stafihub/txs/${txHash}",
+      "account_page": "https://ezstaking.app/stafihub/account/${accountAddress}"
+    },
+    {
       "kind": "ping-pub",
       "url": "https://ping.pub/stafihub",
       "tx_page": "https://ping.pub/stafihub/tx/${txHash}"
@@ -199,5 +204,10 @@
   },
   "keywords": [
     "liquid staking"
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/stafihub-chain-logo.png"
+    }
   ]
 }

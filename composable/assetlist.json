@@ -18,6 +18,7 @@
       "name": "Pica",
       "display": "pica",
       "symbol": "PICA",
+      "coingecko_id": "picasso",
       "traces": [
         {
           "type": "additional-mintage",
@@ -27,7 +28,23 @@
           },
           "provider": "Composable Finance"
         }
-      ]
+      ],
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "picasso",
+            "base_denom": "ppica"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg"
+        }
+      ],
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg"
+      },
+      "socials": {
+        "website": "https://www.composable.finance/",
+        "twitter": "https://twitter.com/ComposableFin"
+      }
     },
     {
       "description": "The native staking and governance token of Kusama Relay Chain.",
@@ -62,9 +79,21 @@
             "path": "transfer/channel-2/4"
           }
         }
-      ]
+      ],
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "picasso",
+            "base_denom": "4"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/kusama/images/ksm.svg"
+        }
+      ],
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/kusama/images/ksm.svg"
+      }
     },
-     {
+    {
       "description": "The native staking and governance token of Polkadot Relay Chain.",
       "denom_units": [
         {
@@ -97,9 +126,21 @@
             "path": "transfer/channel-2/transfer/channel-15/79228162514264337593543950342"
           }
         }
-      ]
+      ],
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "picasso",
+            "base_denom": "79228162514264337593543950342"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
+        }
+      ],
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
+      }
     },
-     {
+    {
       "description": "The native staking and governance token of Statemine parachain.",
       "denom_units": [
         {
@@ -132,7 +173,62 @@
             "path": "transfer/channel-2/130"
           }
         }
+      ],
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "picasso",
+            "base_denom": "130"
+          }
+        }
       ]
+    },
+    {
+      "description": "The native fee, staking and governance token of the Tinkernet Parachain.",
+      "denom_units": [
+        {
+          "denom": "ibc/C58E5D2571042137CB68B1B9851C4E7211C05F7C2C79E21E0966AF0F063961F8",
+          "exponent": 0,
+          "aliases": [
+            "2125"
+          ]
+        },
+        {
+          "denom": "tnkr",
+          "exponent": 12
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/C58E5D2571042137CB68B1B9851C4E7211C05F7C2C79E21E0966AF0F063961F8",
+      "name": "TNKR",
+      "display": "tnkr",
+      "symbol": "TNKR",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "picasso",
+            "base_denom": "2125",
+            "channel_id": "channel-17"
+          },
+          "chain": {
+            "channel_id": "channel-2",
+            "path": "transfer/channel-2/2125"
+          }
+        }
+      ],
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "picasso",
+            "base_denom": "2125"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tinkernet/images/tnkr.svg"
+        }
+      ],
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tinkernet/images/tnkr.svg"
+      }
     }
   ]
 }

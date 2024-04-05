@@ -69,6 +69,11 @@
         "id": "8673c1f04c29c464189e8bf29e51fb0b38da2f19",
         "address": "rpc-mainnet-1.point.space:26656",
         "provider": "Point Network"
+      },
+      {
+        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
+        "address": "seed.publicnode.com:26656",
+        "provider": "Allnodes ⚡️ Nodes & Staking"
       }
     ],
     "persistent_peers": [
@@ -76,6 +81,11 @@
         "id": "8673c1f04c29c464189e8bf29e51fb0b38da2f19",
         "address": "rpc-mainnet-1.point.space:26656",
         "provider": "Point Network"
+      },
+      {
+        "id": "f675d544f5e6b8bc7ef9923d6f594dd0a3570190",
+        "address": "point.peer.stavr.tech:1056",
+        "provider": "🔥STAVR🔥"
       },
       {
         "id": "9c7902cf292e1dbb79b2a0c3ed18f9e6f826483f",
@@ -95,8 +105,8 @@
         "provider": "NodeStake"
       },
       {
-        "address": "https://rpc.point.nodexcapital.com",
-        "provider": "⚡NodeX Validator⚡"
+        "address": "https://point.rpc.m.stavr.tech:443",
+        "provider": "🔥STAVR🔥"
       },
       {
         "address": "https://rpc.point.indonode.net",
@@ -109,22 +119,26 @@
         "provider": "Point Network"
       },
       {
+        "address": "https://point.api.m.stavr.tech",
+        "provider": "🔥STAVR🔥"
+      },
+      {
         "address": "https://api.point.nodestake.top",
         "provider": "NodeStake"
       },
       {
-        "address": "https://rest.point.nodexcapital.com",
-        "provider": "⚡NodeX Validator⚡"
-      },
-      {
         "address": "https://api.point.indonode.net",
         "provider": "Indonode"
-      }      
+      }
     ],
     "grpc": [
       {
         "address": "grpc.point.nodestake.top:443",
         "provider": "NodeStake"
+      },
+      {
+        "address": "point.grpc.m.stavr.tech:2050",
+        "provider": "🔥STAVR🔥"
       },
       {
         "address": "https://grpc.point.nodexcapital.com",
@@ -153,6 +167,11 @@
       "tx_page": "https://explorer.pointnetwork.io/tx/${txHash}"
     },
     {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Point-Mainnet",
+      "tx_page": "https://explorer.stavr.tech/Point-Mainnet/tx/${txHash}"
+    },
+    {
       "kind": "ping.pub",
       "url": "https://cosmos.pointnetwork.io/",
       "tx_page": "https://cosmos.pointnetwork.io/point/tx/${txHash}"
@@ -167,6 +186,12 @@
       "url": "https://atomscan.com/point",
       "tx_page": "https://atomscan.com/point/transactions/${txHash}",
       "account_page": "https://atomscan.com/point/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/point/images/point-logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/point/images/point-logo.svg"
     }
   ]
 }
